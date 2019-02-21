@@ -95,6 +95,7 @@ p{
 	border-radius: 1px;
 	width: 25%;
 	height: 40%;
+	text-decoration: none;
 
 }
 
@@ -124,6 +125,9 @@ p{
 
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+	li{
+		font-size: 12px;
+	}
 	#top{
 		height: 25%;
 	}
@@ -151,6 +155,9 @@ p{
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	li{
+		font-size: 12px;
+	}
 	#top{
 		height: 25%;
 	}
