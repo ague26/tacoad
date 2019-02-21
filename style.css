@@ -1,0 +1,83 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+li{
+	color:#4c7f7b;
+	font-size: 11px;
+	font-family: InterstateBlack,Arial,Tahoma,sans-serif;
+	text-transform: uppercase;
+}
+p{
+	color: white;
+}
+#main{
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	background: url("banner-cravingsmenu.gif") no-repeat center center black;
+
+}
+#top{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 11%;
+}
+#top p{
+	margin: auto;
+	position: absolute;
+}
+#top ul{
+	align-items: center;
+	list-style-type: none; 
+	display: flex;
+	justify-content: flex-end;
+	width: inherit;
+	flex-direction: column;
+}
+#middle{
+	display: flex;
+	height: 72%;
+	flex-direction: column;
+	align-items: center;
+}
+#middle ul{
+	list-style-type: none;
+	padding-bottom: 3.5em;
+}
+.rows{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+#end{
+	width: 98%;
+	height: 14%;
+	margin: auto;
+}
+#end ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	width: 100%;
+	justify-content: space-between;
+}
+#end li{
+	padding-right: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
