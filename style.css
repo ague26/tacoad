@@ -17,7 +17,8 @@ p{
 	height: 100vh;
 	width: 100vw;
 	background-color: black;
-	background: url("banner-cravingsmenu.gif") no-repeat center center black;
+	background: url("banner-cravingsmenu.gif") no-repeat, repeating-linear-gradient(to bottom, #000000 28% , #4c7f7b, #000000 );
+	background-position: center center;
 
 }
 #top{
