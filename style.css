@@ -35,7 +35,7 @@ p{
 	align-items: center;
 	list-style-type: none; 
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	width: inherit;
 	flex-direction: column;
 }
@@ -70,7 +70,18 @@ p{
 #end li{
 	padding-right: 
 }
-
+#social{
+	display: flex;
+	position: absolute;
+	justify-content: space-around;
+	width: 200px;
+	right: 0px;
+	top:20px;
+}
+.smallIcon{
+	height: 30px;
+	width:30px;
+}
 
 
 
